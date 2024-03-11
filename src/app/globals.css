@@ -31,3 +31,30 @@ body {
     text-wrap: balance;
   }
 }
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  max-width: 350px;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+input:focus,
+input:active {
+  outline: 2px solid #4f46e5;
+}
+
+.disabled:focus {
+  outline: none;
+  cursor: pointer;
+  caret-color: transparent;
+}
