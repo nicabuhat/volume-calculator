@@ -17,8 +17,8 @@ export default function Home() {
   };
 
   useEffect(() => {
-    setVideoVolume(`${Math.round(bannerVolume * 0.5)}m`);
-    setNativeVolume(`${Math.round(bannerVolume * 0.5 * 0.2)}m`);
+    setVideoVolume(`${Math.round(bannerVolume * 0.6)}m`);
+    setNativeVolume(`${Math.round(bannerVolume * 0.6 * 0.2)}m`);
   }, [bannerVolume]);
 
   const copyText = async (inputRef: any, ref: string) => {
