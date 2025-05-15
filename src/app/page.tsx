@@ -17,7 +17,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    setVideoVolume(`${Math.round(bannerVolume * 0.6)}m`);
+    setVideoVolume(`${Math.round(bannerVolume * 0.58)}m`);
     setNativeVolume(`${Math.round(bannerVolume * 0.6 * 0.26)}m`);
   }, [bannerVolume]);
 
